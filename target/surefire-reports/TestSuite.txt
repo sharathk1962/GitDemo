@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 3, Errors: 0, Skipped: 7, Time elapsed: 2.807 s <<< FAILURE! - in TestSuite
+initialize(Academy.HomePage)  Time elapsed: 1.844 s  <<< FAILURE!
+java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases
+	at Academy.HomePage.initialize(HomePage.java:28)
+
+initialize(Academy.validateTitle)  Time elapsed: 0.547 s  <<< FAILURE!
+java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases
+	at Academy.validateTitle.initialize(validateTitle.java:28)
+
+initialize(Academy.validateNavigationBar)  Time elapsed: 0.135 s  <<< FAILURE!
+java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases
+	at Academy.validateNavigationBar.initialize(validateNavigationBar.java:32)
+
